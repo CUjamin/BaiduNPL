@@ -1,5 +1,7 @@
 package cuj.baidu.nlp.service.nlp;
 
+import cuj.baidu.nlp.domain.nlp.DepParserResponse;
+import cuj.baidu.nlp.domain.nlp.EcnetResponse;
 import cuj.baidu.nlp.domain.nlp.SentimentClassifyResponse;
 import cuj.baidu.nlp.domain.nlp.LexicalResponse;
 
@@ -29,4 +31,19 @@ public interface NLPService {
      * @return 对话情绪识别结果
      */
     SentimentClassifyResponse sentimentClassify(String text);
+
+
+    /**
+     * 依存句法分析
+     * 依存句法分析接口可自动分析文本中的依存句法结构信息，
+     * 利用句子中词与词之间的依存关系来表示词语的句法结构信息（如“主谓”、“动宾”、“定中”等结构关系），
+     * 并用树状结构来表示整句的结构（如“主谓宾”、“定状补”等）
+     * @param text text
+     * @return 依存句法分析
+     */
+    DepParserResponse depParser(String text);
+
+
+    //目前无权限
+    EcnetResponse ecnet(String text);
 }

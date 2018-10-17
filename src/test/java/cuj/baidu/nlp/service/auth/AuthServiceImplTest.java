@@ -11,8 +11,8 @@ import static org.junit.Assert.*;
  */
 public class AuthServiceImplTest {
     AuthService authService = new AuthServiceImpl();
-    public static final String apiKey="IC5HNcVkWMhKZzhqGtiwwofV";
-    public static final String securetKey = "nYSzOUwwvfiOkK9u8xC0hVHocmUIECut";
+    public static final String apiKey="3tG6dOIiQ7zGDg8eg2Kj8TYn";
+    public static final String securetKey = "a6y208ed5ymQNvc1CiVAkjWRIKhP7SU3";
 
     @Test
     public void getAuth() {

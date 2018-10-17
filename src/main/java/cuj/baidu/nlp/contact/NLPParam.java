@@ -7,9 +7,14 @@ package cuj.baidu.nlp.contact;
  */
 public class NLPParam {
     //NLP 自然语言处理的学习
-    public static final String NLP_APP_ID = "14461061";
-    public static final String NLP_API_KEY = "Ba5ldaxG0oLS6vxV3ZnxZGNR";
-    public static final String NLP_SECRET_KEY = "RfXWFRwghIBaLKHGnvje2aUrgsAGKDpd";
+    public static final String NLP_APP_ID = "14463466";
+    public static final String NLP_API_KEY = "fIr78zx0Grl83KW5peoQj9nu";
+    public static final String NLP_SECRET_KEY = "wfS9o6UufT4KKb3ro98sfPrguST7O47C";
+
+    //UNIT
+    public static final String UNIT_APP_ID = "14463638";
+    public static final String UNIT_API_KEY = "3tG6dOIiQ7zGDg8eg2Kj8TYn";
+    public static final String UNIT_SECRET_KEY = "a6y208ed5ymQNvc1CiVAkjWRIKhP7SU3";
 
     //词法分析接口
     public static final String LEXICAL_APP_ID = "14459716";
